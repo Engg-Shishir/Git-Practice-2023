@@ -250,6 +250,8 @@ Here's how it works. A .gitignore file is a plain text file where each line co
 
   + You can also run : `git push -u origin master`. It's established permanent connection between origin and localBranch. That's why to push some commit just run : `git push`.No need to mention `origin master`.
 
++ 
+
 
 
 
