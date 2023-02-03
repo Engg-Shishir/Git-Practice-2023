@@ -237,7 +237,7 @@ Here's how it works. A .gitignore file is a plain text file where each line co
 
 
 <div style="background-color:Indigo;text-align:center;color:white;">
-  <strong><h2>Push / Pull -- Github</h2></strong>
+  <strong><h2>Push branch in -- Github</h2></strong>
 </div>
 
 + Check is any connection between Local-repository & Github(remote repository) : `git remote -v` If any connction is found it gives a URL.Otherwise nothing is return.
@@ -250,9 +250,26 @@ Here's how it works. A .gitignore file is a plain text file where each line co
 
   + You can also run : `git push -u origin master`. It's established permanent connection between origin and localBranch. That's why to push some commit just run : `git push`.No need to mention `origin master`.
 
-+ 
+
+<div style="background-color:Indigo;text-align:center;color:white;">
+  <strong><h2>Pull branch from -- Github</h2></strong>
+</div> 
+
+> "git pull" is necessary in Git because it allows you to incorporate changes from a remote repository into your local repository. In a collaborative development environment, multiple people may be working on the same project, making changes to the codebase, and pushing them to the central remote repository.
+When you run "git pull", Git retrieves the latest changes from the remote repository and merges them into your local repository, ensuring that your local copy of the codebase is up-to-date with the latest changes made by other team members.
+Therefore, running "git pull" regularly is important in order to:
+Keep your local copy of the codebase in sync with the remote repository.
+Avoid conflicts that may occur when you try to push changes to the remote repository and someone else has already pushed conflicting changes.
+Stay up-to-date with the latest features and bug fixes made by other team members.
+
++ Pulling command : `git pull origin localBranchName`. Ex : `git pull origin master`
 
 
+<div style="background-color:MediumVioletRed;text-align:center;color:white;">
+  <strong><h2>Clone Project From Github</h2></strong>
+</div> 
+
+> Run : `git clone https://github.com/Engg-Shishir/Remote-Repository-Name.git`
 
 
 
