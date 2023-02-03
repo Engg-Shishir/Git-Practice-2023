@@ -244,11 +244,11 @@ Here's how it works. A .gitignore file is a plain text file where each line co
 + Create connection between them(Local Repo & Remote Repo) : `git remote add origin https://github.com/Engg-Shishir/Git-Practice-2023.git`  (Here `origin` represent remote repository connection URL ). Next time you can use `origin` as a referances of connection URL(https://github.com/Engg-Shishir/Git-Practice-2023).
    + Now again check : `git remote -v` 
 
-+ Change `master` brance name as a `main` branch if you want : `git branch -M main`. But there is no necessary for this.
++ Change `master` brance name as a `main` branch if you want : `git branch -M main`. But this is not necessary. `master` is much preferable than `main`
 
-+ Now `PUSH` your branch in remote repository : `git push origin master`. this command means that PUSH local `master` branch in remote origin(https://github.com/Engg-Shishir/Git-Practice-2023). 
++ Now PUSH your branch in remote repository : `git push origin master`. Everytime this command PUSH, local repository master branch in remote origin(https://github.com/Engg-Shishir/Git-Practice-2023). That means if any new commited are created and want to push, you should run this command everytime.
 
-+ 
+  + You can also run : `git push -u origin master`. It's established permanent connection between origin and localBranch. That's why to push some commit just run : `git push`.No need to mention `origin master`.
 
 
 
